@@ -1,0 +1,141 @@
+.SearchContainer {
+
+  width: 500px;
+
+  padding: 10px;
+  /* box-shadow: 4px 4px black; */
+}
+
+.SearchResultsInfo {
+  font-size: 1em;
+}
+
+.card {  
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid black;
+  box-shadow: 5px 5px black;
+}
+.details { 
+    display: flex;
+    justify-content: flex-end;
+}
+.SearchResultsInfo{ 
+    margin-top: 10px;
+    height: 1.2em;
+
+    font-size: 10px;
+
+}
+
+.SearchBarRow {
+    /* outline: 1px solid lime; */
+
+    height: 2em;
+    border: 1px solid black;
+  box-shadow: 5px 5px black;
+  transition: 0.21s;
+  display: flex;
+  
+}
+
+.SearchBarRow:hover { 
+    transform: scale(1.1);
+
+
+    background-color: white;
+    box-shadow: 7px 7px black;
+    /* transform: translateX(-10px); */
+    transform: translate(-4px, -1px);
+  
+    outline: 1px solid black;
+  
+
+}
+.searchForm {
+    font-size: 10em;
+
+  width: 100%;
+  display: flex;
+}
+.search {
+  flex-grow: 1;
+  font-size: 1rem;
+  outline: none;
+ 
+}
+
+.submit { 
+    transition: 0.2s;
+}
+
+.submit:hover  { 
+    content: "test";
+    background-color: teal;
+    cursor: pointer;
+    color: white;
+}
+
+
+input { 
+    border: none;
+}
+
+
+/* RESULTS */
+
+
+.resCard { 
+    margin-top: 10px;
+    background-color: white;
+    gap: 10px;
+    border: 1px solid black;
+  box-shadow: 5px 5px black;
+  transition: 0.21s;
+  display: flex;
+  justify-content: center;
+
+  padding: 10px 10px 10px 10px;
+  height: 150px;
+}
+
+.resCard:hover { 
+    transform: scale(1.1);
+
+
+    background-color: white;
+    box-shadow: 7px 7px black;
+    /* transform: translateX(-10px); */
+    transform: translate(-4px, -1px);
+    cursor: pointer;
+    outline: 1px solid black;
+  
+
+}
+
+
+
+
+.prodTitle{ 
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.prodCat { 
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.prodPrice {
+    font-weight: 900;
+    font-size: 2rem;
+}
+.prodDesc { 
+    font-size: 0.7rem;
+}
+ img { 
+    width: 30%;
+    aspect-ratio: 1 / 1;
+    border: 1px solid black;
+    box-shadow: 5px 5px black;
+   
+}

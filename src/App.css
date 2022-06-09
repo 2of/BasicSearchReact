@@ -1,0 +1,18 @@
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.AppContainer { 
+  top:100px;
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  flex-direction: column;
+
+
+}
